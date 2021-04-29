@@ -1,0 +1,19 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    min-height: calc(100vh - 6rem);
+    padding: 0 1rem 2rem;
+    background-image: linear-gradient(to bottom, var(--bg-primary), var(--bg-primary));
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 34.37em) {
+
+    .mainContent {
+        height: 100%;
+    }
+}

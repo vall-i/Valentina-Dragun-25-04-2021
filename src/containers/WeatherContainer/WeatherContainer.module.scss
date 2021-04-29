@@ -1,0 +1,23 @@
+.weatherContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2.5rem 2rem;
+    background-color: var(--bg-wrapper);
+    border-radius: 2rem;
+
+}
+
+.noWeather {
+    h1 {
+        color: var(--color-text-primary);
+    }
+}
+
+// 1em = 16px;
+// 31.25em = 500px
+@media (max-width: 31.25em) {
+    .weatherContainer {
+        padding: 2.5rem 1rem;
+    }
+}

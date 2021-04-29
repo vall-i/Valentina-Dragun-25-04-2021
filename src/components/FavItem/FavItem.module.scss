@@ -1,0 +1,48 @@
+.favItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 1rem 1.5rem;
+    padding: 4rem 2rem;
+    min-width: 20rem;
+    max-width: 20rem;
+    background-color: var(--bg-wrapper);
+    font-size: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 2rem;
+    cursor: pointer;
+
+    .favItemHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        width: 90%;
+        text-align: center;
+
+        h1 {
+            display: inline-block;
+            margin-bottom: 1rem;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 1.8rem;
+            color: var(--color-text-primary);
+        }
+
+        p {
+            font-size: 1.6rem;
+            color: var(--color-text-secondary);
+        }
+    }
+
+    .favItemIcon {
+        margin-bottom: 1rem;
+    }
+
+    .weatherText {
+        color: var(--color-text-secondary);
+    }
+}

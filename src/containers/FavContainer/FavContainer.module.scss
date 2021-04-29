@@ -1,0 +1,10 @@
+.favContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+    h1 {
+        color: var(--color-text-primary);
+    }
+}

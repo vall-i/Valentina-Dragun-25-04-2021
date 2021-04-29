@@ -1,0 +1,33 @@
+.searchLocation {
+    margin-bottom: 6rem;
+    width: 80%;
+    max-width: 40rem;
+
+    .searchBox {
+        display: flex;
+        align-items: center;
+        width: 80%;
+
+        svg {
+            margin-right: 5px;
+            width: 1.2rem;
+            height: 1.2rem;
+        }
+    }
+
+    input {
+        background-color: var(--color-search-bar);
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        border: 1px solid var(--color-search-bar);
+        border-radius: 1.5rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: var(--color-text-primary);
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.favIndicator {
+    padding: 0 2rem;
+
+    svg {
+        height: 2.7rem;
+        width: 2.7rem;
+    }
+
+    button {
+        padding: 0;
+        background: none;
+        font: inherit;
+        color: inherit;
+        border: none;
+        cursor: pointer;
+        outline: inherit;
+    }
+}
+
+@media (max-width: 31.25em) {
+    .favIndicator {
+        margin-bottom: 1rem;
+        align-self: flex-end;
+    }
+}

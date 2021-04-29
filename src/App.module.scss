@@ -1,0 +1,47 @@
+.light {
+    --color-text-primary: #11142D;
+    --color-text-secondary: #808191;
+    --color-text-blue: #2270e6;
+    --color-text-link: #3f8cff;
+
+    --bg-primary: #2f75e1;
+    --bg-secondary: #3f8cff;
+    --bg-header: #f5fbff;
+
+    --bg-wrapper: #F5FBFF;
+    --bg-box: #fff;
+
+    --color-checkbox-1: #2f75e1;
+    --color-checkbox-2: #808191;
+
+    --color-search-bar: #fff;
+}
+
+.dark {
+    --color-text-primary: #e6e6e6;
+    --color-text-secondary: #728291;
+    --color-text-blue: #75adec;
+    --color-text-link: #598cda;
+
+    --bg-primary: #18222c;
+    --bg-secondary: #212d3b;
+    --bg-header: #212d3b;
+
+    --bg-wrapper: #273342;
+    --bg-box: #18222c;
+
+    --color-checkbox-1: #589ae6;
+    --color-checkbox-2: #314a61;
+
+    --color-search-bar: #314a61;
+}
+
+:global {
+    button.ant-switch {
+        background-color: var(--color-checkbox-2);
+    }
+
+    button.ant-switch-checked {
+        background-color: var(--color-checkbox-1);
+    }
+}

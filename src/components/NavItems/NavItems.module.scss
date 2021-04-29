@@ -1,0 +1,22 @@
+.navItems {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    li {
+        display: flex;
+        align-items: center;
+        margin: 0 1rem;
+    }
+}
+
+// 1em = 16px;
+// 31.25em = 500px
+@media (max-width: 31.25em) {
+    .navItems {
+        li {
+            margin: .5rem;
+        }
+    }
+}

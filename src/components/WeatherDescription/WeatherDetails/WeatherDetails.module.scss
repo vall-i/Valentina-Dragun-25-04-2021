@@ -1,0 +1,49 @@
+.weatherDetails {
+    display: flex;
+    justify-content: space-between;
+
+    .weatherIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            display: block;
+            height: 100%;
+        }
+    }
+
+    .weatherInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 0 1rem;
+
+        h1 {
+            font-size: 2rem;
+            color: var(--color-text-primary);
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: var(--color-text-secondary);
+        }
+    }
+}
+
+@media (max-width: 31.25em) {
+    .weatherDetails {
+        flex-direction: column-reverse;
+
+        .weatherInfo {
+            align-items: center;
+
+            h1 {
+                text-align: center;
+            }
+
+            p {
+                margin: 1rem 0;
+            }
+        }
+    }
+}

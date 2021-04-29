@@ -1,0 +1,15 @@
+a {
+    font-size: 1.6rem;
+
+    &:hover,
+    &:active,
+    &.active {
+        color: var(--color-text-blue) !important;
+    }
+}
+
+:global {
+    a {
+        color: var(--color-text-link) !important;
+    }
+}

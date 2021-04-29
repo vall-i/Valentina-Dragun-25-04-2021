@@ -1,0 +1,38 @@
+.weatherDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+
+    .locWeather {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .weatherText {
+        margin-top: 1rem;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 4rem;
+        color: var(--color-text-primary);
+    }
+}
+
+// 1em = 16px;
+// 31.25em = 500px
+@media (max-width: 31.25em) {
+    .weatherDescription {
+        margin-bottom: 1.5rem;
+
+        .locWeather {
+            flex-direction: column-reverse;
+        }
+
+        .weatherText {
+            margin-top: 0;
+            font-size: 3rem;
+        }
+    }
+}

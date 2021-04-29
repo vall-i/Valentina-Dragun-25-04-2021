@@ -1,0 +1,41 @@
+.ant-select-dropdown {
+    border-radius: 1.4rem;
+
+    .ant-select-item {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+}
+
+.ant-notification-hook-holder,
+.ant-notification-notice {
+    border-radius: 2rem;
+}
+
+
+.ant-notification {
+    div {
+
+        .ant-notification-hook-holder,
+        .ant-notification-notice {
+            background: #FF6946;
+
+            .ant-notification-notice-message {
+                color: #faf9f9;
+            }
+
+            .ant-notification-notice-description {
+                color: #eee;
+            }
+
+            svg {
+                fill: #faf9f9;
+            }
+        }
+    }
+}
+
+a {
+    color: #2d9efa
+}
